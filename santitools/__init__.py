@@ -13,7 +13,7 @@ def clear():
         return
 def bisect(list: list, query):
     """
-    Searches through a list or other iterable using binary search. \n
+    Searches through a list or other iterable using an iterative binary-search algorithm. \n
     Returns the index of the query if found, otherwise returns -1. \n
     """
     low = 0
