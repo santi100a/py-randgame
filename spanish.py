@@ -19,7 +19,7 @@ try:
             continue
         elif conjetura < 0:
             clear()
-            print(colorize("¡No puedes adivinar un número mayor a 0!", "cyan"))
+            print(colorize("¡No puedes adivinar un número menor a 0!", "cyan"))
             continue
         elif conjetura == respuesta:
             clear()
