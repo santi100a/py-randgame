@@ -11,8 +11,9 @@ specify nothing or something invalid, then it defaults to 'y'.
 
 To run this game, you'll have to:
 
-- Clone this repo by running ```git clone https://github.com/santi100a/py-randgame.git```.
-- Enter the directory and run ```python english.py``` or ```python3 english.py```, in case you have Python 3 (assuming you have Python installed; if you don't, go to <https://python.org/downloads>, if you don't want to install Python, look for the latest release).
+- Clone this repo by running ```git clone https://github.com/santi100a/py-randgame.git```. If you
+prefer, you can download the latest release from the [GitHub repo](<https://github.com/santi100a/py-randgame/releases/>) instead.
+- Enter the directory and run ```python english.py``` (assuming you have Python installed; if you don't, go to [Python Downloads](<https://python.org/downloads>)). The game has only been tested on Python 3.
 - Enjoy the game!  
 
 **Notice:** To exit the game, you can press Ctrl+C or type 'exit' as your guess.
@@ -29,7 +30,8 @@ entonces por defecto es 's'.
 Para ejecutar este juego, tendrás que:
 
 - Clonar este repositorio ejecutando ```git clone https://github.com/santi100a/py-randgame.git```.
-- Ingresar al directorio y ejecutar ```python spanish.py``` o ```python3 spanish.py```, en caso de que tengas Python 3 (asumiendo que tengas Python instalado; si no mira <https://python.org/downloads>, si no quieres instalar Python, busca el lanzamiento más reciente).
+Si prefieres, puedes descargar la última versión desde el [repositorio de GitHub](<https://github.com/santi100a/py-randgame/releases/>) en su lugar.
+- Ingresar al directorio y ejecutar ```python spanish.py``` (asumiendo que tengas Python instalado; si no mira las [descargas de Python (en inglés)](<https://python.org/downloads>)). El juego sólo se ha probado en Python 3.
 - ¡Disfruta el juego!
 
-**Nota:** Para salir del juego, puedes presionar Ctrl+C o escribir 'exit' como tu conjetura.
+**Nota:** Para salir del juego, puedes presionar Ctrl+C o escribir 'salir' como tu conjetura.
