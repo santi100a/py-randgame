@@ -11,7 +11,7 @@ try:
     respuesta = random(MAXIMO)
     while True:
         _conjetura = input(f'¿Cuál es tu conjetura (entre 0 y {MAXIMO})? ')
-        if _conjetura == 'exit': break
+        if _conjetura == 'salir': break
         conjetura = int(_conjetura)
         if conjetura > MAXIMO:
             clear()
@@ -25,13 +25,13 @@ try:
             clear()
             print(colorize(f"¡Hurra! {nombre_jugador}, ¡lo adivinaste! ", "green"))
             def validar(ent):
-                if ent == "y":
+                if ent == "s":
                     return True
                 elif ent == "n":
                     return False
                 else:
                     return True
-            jugar_nuevamente = validar(input(f"Would you like to play again? ({colorize('y', 'green')}/{colorize('n', 'red')}) ").strip().lower()[0])
+            jugar_nuevamente = validar(input(f"¿Te gustaría jugar nuevamente? ({colorize('s', 'green')}/{colorize('n', 'red')}) ").strip().lower()[0])
             if not jugar_nuevamente: break
             if jugar_nuevamente:
                 respuesta = random(MAXIMO)
